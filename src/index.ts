@@ -1,12 +1,7 @@
-let numero: number;
-let contador: number;
+let resultado: string = " ";
 
-for (contador = 1; contador <= 100; contador++);
-{
-  numero = prompt("ingrese un numero");
-  contador++;
+for (let numero: number = 1; numero <= 100; numero++) {
+  if (numero % 2 === 0 || numero % 3 === 0);
+  resultado = resultado + " " + numero;
 }
-
-if (numero % 2 === 0 || numero % 3 === 0) {
-  console.log("El numero ingresado es multiplo de 2 o de 3");
-}
+console.log("los multiplos de 2 o de 3 son" + resultado);
